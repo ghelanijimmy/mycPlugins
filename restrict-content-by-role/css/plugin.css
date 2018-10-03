@@ -1,0 +1,112 @@
+/* Meta Box Styles */
+
+#mkdo_rcbr .field,
+#mkdo_rcbr_admin .field {
+	margin-bottom: 30px;
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#mkdo_rcbr .field-override-parent-permissions,
+#mkdo_rcbr_admin .field-override-parent-permissions {
+	background-color: #FAFAFA;
+	padding:12px;
+	border: 1px solid #DDD;
+	margin-top:12px;
+}
+
+#mkdo_rcbr .field:last-child,
+#mkdo_rcbr_admin .field:last-child {
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#mkdo_rcbr .field-title,
+#mkdo_rcbr_admin .field-title {
+	font-weight: bold;
+}
+#mkdo_rcbr .field-description,
+#mkdo_rcbr_admin .field-description {
+	color: #aaa;
+	font-style: italic;
+	max-width: 800px;
+}
+
+#mkdo_rcbr #mkdo_rcbr_custom_redirect,
+#mkdo_rcbr_admin #mkdo_rcbr_custom_redirect {
+	width: 100%;
+	max-width: 800px;
+}
+
+#mkdo_rcbr_admin .warning {
+	background-color:red;
+	color:white;
+	padding: 0 2px 0 2px;
+	font-weight: normal;
+}
+
+/* Column Styles */
+
+#mkdo_rcbr_access {
+	width: 50px;
+}
+.dashicons-before.dashicon-large.dashicons-unlock:before {
+	font-size: 18px !important;
+}
+.dashicons-before.dashicon-large:before {
+	font-size: 20px !important;
+}
+.dashicons-before.dashicon-small.dashicons-unlock:before {
+	font-size: 14px !important;
+}
+.dashicons-before.dashicon-small:before {
+	font-size: 16px !important;
+}
+.dashicons-before.dashicon-right:before {
+	margin-top: 7px;
+	margin-left: -15px;
+	color: #aaa !important;
+}
+.dashicons-before.dashicon-muted:before {
+	color: #EFEFEF !important;
+}
+.dashicons-before.dashicon-dark:before {
+	color: #333 !important;
+}
+
+/* Options */
+
+.settings_page_restrict_content_by_role .field {
+	margin-bottom: 30px;
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.settings_page_restrict_content_by_role .field:last-child {
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.settings_page_restrict_content_by_role .field-title {
+	font-weight: bold;
+}
+.settings_page_restrict_content_by_role .field-description {
+	color: #aaa;
+	font-style: italic;
+	max-width: 800px;
+}
+
+.settings_page_restrict_content_by_role #mkdo_rcbr_default_restrict_message {
+	width: 100%;
+	max-width: 800px;
+	height: 80px;
+}
+
+.settings_page_restrict_content_by_role #mkdo_rcbr_default_redirect {
+	width: 100%;
+	max-width: 800px;
+}
